@@ -1,4 +1,7 @@
-FROM nginx:latest
-COPY Sintaxify/index.html /usr/share/nginx/html/index.html
+# imagen base de .js
+FROM node:14-alpine
+WORKDIR /app
+COPY . .
+RUN npm install
 EXPOSE 8000
-# CMD por defecto en nginx
+CMD ["npm", "start"]
