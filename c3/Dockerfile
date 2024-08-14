@@ -1,4 +1,7 @@
-FROM nginx:latest
-COPY FormatSwapper/index.html /usr/share/nginx/html/index.html
+# imagen base de .js
+FROM node:14-alpine
+WORKDIR /app
+COPY . .
+RUN npm install
 EXPOSE 8001
-# CMD por defecto
+CMD ["npm", "start"]
