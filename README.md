@@ -19,12 +19,16 @@ Una vez descargados los requerimientos, abrir la aplicación `Docker Desktop`, y
 ## Paso 4
 Ejecutar el archivo seleccionando el icono de `play` que se encuentra arriba a la derecha, una vez hecho ese acto, se habilitarán puertos por cada carpeta. Se seleccionará el puerto `80:80` de la carpeta de Proxy.
 
+En el localhost, con el subdominio /c2 se accede a la página del contenedor 2 y con el subdominio /c3 al contenido del contenedor 3.
+
 ## Paso 5 Final
 Una vez seleccionado el puerto tendrás una interfaz sencilla de dos botones para elegir qué contenedor deseas ver o acceder, seleccionar uno y ver la información.
 
 ---
+* Contenedor 2: Pertenece a https://github.com/proyectosingenieriauninorte/Sintaxify
+* Contenedor 3: Pertenece a https://github.com/proyectosingenieriauninorte/FormatSwapper
 
 **Integrantes del Grupo:**
 
-- Mariana Guerrero
+- Mariana Guerrero Benavides
 - Mateo Suárez Páez
