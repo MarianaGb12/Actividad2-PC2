@@ -2,10 +2,13 @@
 
 # Instrucciones para la Actividad
 
-- Una vez descargado el .zip de la actividad, realizar los siguientes pasos:
+Primero debes descargar el repositorio:
+Clonar el Repositorio de GitHub:
+Abre tu terminal e ingresa el siguiente comando: git clone https://github.com/MarianaGb12/Actividad2-PC2.git
+- Alternativa: Descargar el .zip de la actividad y realizar los siguientes pasos:
 
 ## Paso 1
-Abrir Visual Studio Code y abrir la carpeta de la actividad después de descomprimir el archivo.
+En Visual Studio Code, abrir la carpeta de la actividad.
 
 ## Paso 2
 El archivo llamado `dockerCompose.yml` seleccionarlo, dar click derecho y seleccionar la opción `Compose Up`, se procederá a descargar algunos requerimientos, puede tardar un poco.
